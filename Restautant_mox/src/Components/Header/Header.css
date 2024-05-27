@@ -1,0 +1,17 @@
+.nav-item a:focus{
+    background-color: rgba(237, 149, 94, 0.886);
+    opacity: 0.3;
+    border-radius: 10%;
+}
+
+.logocolor{
+    color: aliceblue !important;
+}
+
+.header{
+    background-color: rgba(110, 120, 125, 0.633);
+}
+
+.header ul li a {
+    color: black !important;
+}

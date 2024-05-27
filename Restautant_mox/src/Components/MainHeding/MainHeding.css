@@ -1,0 +1,24 @@
+.main-heading{
+    background-color: #c62828;
+    max-width: 100% !important;
+}
+
+.dropdwn{
+    position: relative;
+}
+.dropdwn .sub-drop{
+    top: 100%;
+    left: -20%;
+    background-color: rgba(146, 168, 146, 0.912);
+    padding: 20px 20px;
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.dropdwn:hover .sub-drop{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s all linear;
+}
+

@@ -1,0 +1,149 @@
+.home-sec-1 video {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
+    /* height: 100vh; */
+}
+
+.overlay::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 135.2%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+
+
+.btn2 button {
+    width: 70px;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.btn-12 button {
+    width: 150px;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.sec-3-menu {
+    background-image: url(../../Images/homePage/sec-3-bag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-bottom: 29px;
+    padding-top: 20px;
+}
+
+.card,
+.card-img {
+    border-radius: 20px;
+    border: none;
+}
+
+.card {
+    width: 315px !important;
+    height: auto !important;
+    cursor: grab;
+}
+
+.overlay2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.home-sec-7 {
+    /* background-image: url(../../Images/homePage/sec-7-bag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+    position: relative; */
+    position: relative;
+
+}
+
+.blur {
+    background-image: url(../../Images/homePage/sec-7-bag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 145vh;
+    width: 100%;
+    /* filter: blur(4px); */
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.content-7,
+.content-10-blur {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    z-index: 1;
+}
+
+.detail-7-1 {
+    padding: 20px;
+    background-color: white;
+}
+
+.home-sec-10 {
+    position: relative;
+}
+
+.sec10-blur {
+    background-image: url(../../Images/homePage/se10-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    /* filter: blur(4px); */
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.coma-t {
+    position: absolute;
+    top: 49%;
+    left: -5%;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 70px;
+    color: #c62828;
+
+}
+
+.coma-b {
+    position: absolute;
+    bottom: -20%;
+    right: -2%;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 70px;
+    color: #c62828;
+}
+.home-sec-11{
+    background-image: url(../../Images/homePage/sec-3-bag.png);
+    width: 100%;
+    height: auto;
+    background-color: #c62828;
+}
+
